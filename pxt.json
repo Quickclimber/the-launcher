@@ -6,7 +6,8 @@
         "multiplayer": "*",
         "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
         "animation": "*",
-        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301"
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.18"
     },
     "files": [
         "main.blocks",

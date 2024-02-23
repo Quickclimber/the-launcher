@@ -17,3 +17,11 @@ controller.moveSprite(Player_1)
 scroller.scrollBackgroundWithCamera(scroller.CameraScrollMode.BothDirections, scroller.BackgroundLayer.Layer4)
 tiles.setCurrentTilemap(tilemap`level`)
 scene.setBackgroundImage(assets.image`myImage5`)
+forever(function () {
+    characterAnimations.runFrames(
+    Player_1,
+    assets.animation`myAnim`,
+    200,
+    characterAnimations.rule(Predicate.Moving)
+    )
+})
